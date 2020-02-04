@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+.chat {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0 0 14px 0 #00000033;
+    border-radius: 10px;
+    border: solid 1px #909597;
+    width: 780px;
+    height: 780px;
+    background-color: #edeef5;
+    font-family: Roboto, sant-serif;
+}
+
+.chat-log {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1;
+    overflow: auto;
+    border-radius: 10px;
+}
+
+.chat-message {
+    margin: 1ex;
+    padding: 1ex;
+    border-radius: 2px;
+    border-radius: 10px;
+}
+
+.chat-message--from-me {
+    align-self: flex-end;
+    background-color: #b0ddf1;
+    border-radius: 10px;
+}
+
+.chat-message--from-her {
+    align-self: flex-start;
+    background-color: #b1a9a9;
+    border-radius: 10px;
+}
+
+.chat-input {
+    display: flex;
+    padding: 1ex;
+    flex: none;
+    border-radius: 10px;
+}
+
+.chat-button {
+    display: flex;
+    background-color: #0cda68;
+    color: #fff;
+    margin-left: 5px;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.chat-button:hover {
+    cursor: pointer;
+}
+.chat-input textarea {
+    width: 100%;
+    box-sizing: border-box;
+    flex: 1 1;
+    resize: none;
+    border-radius: 10px;
+}

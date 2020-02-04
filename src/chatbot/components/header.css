@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+.chat-header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-family: Roboto, sant-serif;
+}
+
+.chat-title {
+    text-align: center;
+    color: #d40d0d;
+    border-radius: 10px;
+    font-size: 25px;
+    width: 780px;
+    height: 40px;
+    padding: 10px;
+}
+
+.chat-logout {
+    margin-top: 23px;
+    margin-left: 200px;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    background: #cc3939;
+    border-radius: 5px;
+    border: none;
+    height: 35px;
+    width: 45px;
+    padding: 8px;
+}
+.chat-logout:hover{
+    cursor: pointer;
+}
+
+.chat-logout a {
+    text-decoration: none;
+    color: #eee;
+}
